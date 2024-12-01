@@ -19,16 +19,19 @@ This repo contains my personal Neovim Configuration for "an efficient and enjoya
 
 ## Installation
 
-1. Clone the repo:
+1. Clone repo:
 
 ```bash
 git clone https://github.com/mbstxs/nvim.git
+```
+
+2. Move to config directory:
+
+```bash
 mv nvim ~/.config/
 ```
 
-2. Install plugins:
-
-Neovim (v0.9+ recommended)
+[//]: <> (2. Install plugins:)
 
 [//]: <> (3. Copy the repo to nvim folder)
 
