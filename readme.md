@@ -22,7 +22,8 @@ This repo contains my personal Neovim Configuration for "an efficient and enjoya
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/mbstxs/yanvim.git
+git clone https://github.com/mbstxs/nvim.git
+mv nvim ~/-config/
 ```
 
 2. Install plugins:
