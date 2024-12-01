@@ -23,7 +23,7 @@ This repo contains my personal Neovim Configuration for "an efficient and enjoya
 
 ```bash
 git clone https://github.com/mbstxs/nvim.git
-mv nvim ~/-config/
+mv nvim ~/.config/
 ```
 
 2. Install plugins:
