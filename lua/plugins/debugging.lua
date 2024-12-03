@@ -6,8 +6,8 @@ return {
 			"mfussenegger/nvim-dap",
 			"mfussenegger/nvim-dap-ui",
 		},
-		confing = function()
-			local path = "~/.local/share/nvim/mason/packages/debugpy/venv/bin/python"
+		config = function()
+			local path = vim.fn.expand("~/.virtualenvs/debugpy/bin/python3")
 			require("dap-python").setup(path)
 		end,
 	},
@@ -20,6 +20,7 @@ return {
 		config = function()
 			local dap = require("dap")
 			local dapui = require("dapui")
+			dapui.setup()
 
 			dap.listeners.before.attach.dapui_config = function()
 				dapui.open()
