@@ -44,7 +44,7 @@ git clone https://github.com/mbstxs/nvim.git ~/.config/
 
 ## Language Support
 
-[//]: <> (Python)
+- Python
 - TypeScript
 
 
