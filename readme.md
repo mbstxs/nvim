@@ -1,4 +1,3 @@
-
 # Yan's Neovim Configuration
 
 ## Overview
@@ -38,15 +37,15 @@ git clone https://github.com/mbstxs/nvim.git ~/.config/
 ### Leader: `<space>`
 
 #### General Bindings
+
 - `<leader>dt` add breakpoint
 
-[//]: <> (- `<leader>dc`)
+- `<leader>dc` continue
 
 ## Language Support
 
 - Python
 - TypeScript
-
 
 ## Contributing
 
@@ -55,4 +54,3 @@ Feel free to open issues or submit PR's if you have suggestions or improvements.
 ## Credits
 
 [typecraft - Neovim for Newbs.](https://youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&si=4w2QMxbsiUOm7akd)
-
